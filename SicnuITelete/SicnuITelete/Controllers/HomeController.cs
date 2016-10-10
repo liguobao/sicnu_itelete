@@ -24,7 +24,15 @@ namespace SicnuITelete.Controllers
             {
                studentInfo.CreateTime = DateTime.Now;
                var result= studentInfo.Save();
-
+               if(result)
+               {
+                   EmailInfo email = new EmailInfo();
+                   email.Receiver = studentInfo.QQNumber.Trim() + "@qq.com";
+                   email.ReceiverName = studentInfo.StudentName;
+                   email.Subject = "IT培优招新报名成功！";
+                   email.Body = "<p>报名成功！如有其他问题请回复此邮箱！</p>";
+                   email.Send();
+               }
                
                return Json(new { IsSuccess = result ,SuccessMessage="报名成功！" });
             }catch(Exception ex)

@@ -38,8 +38,8 @@ namespace SicnuITelete
         {
             try
             {
-                    var emailAccount = "";
-                    var emailPassword = "";
+                   var emailAccount = "webbookmark@qq.com";
+                   var emailPassword = "";
            
             
                     MailMessage mail = new MailMessage();

@@ -43,8 +43,8 @@ function SaveUserInfo()
    {
        StudentName: name,
        StudentNumber: studentNumber,
-       QQNumber: phone,
-       Phone: QQ,
+       QQNumber: QQ,
+       Phone: phone,
        GroupType: groupType,
        Intro: Intro,
        ITEleteInfo: ITEleteInfo,
