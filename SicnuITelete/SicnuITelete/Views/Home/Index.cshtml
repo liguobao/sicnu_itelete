@@ -26,7 +26,9 @@
     <script src="~/Scripts/jQueryFileUpload/vendor/jquery.ui.widget.js"></script>
     <script src="~/Scripts/jQueryFileUpload/jquery.iframe-transport.js"></script>
     <script src="~/Scripts/jQueryFileUpload/jquery.fileupload.js"></script>
-
+   
+    <link href="~/assets/css/amazeui.datetimepicker.css" rel="stylesheet" />
+    <script src="~/assets/js/amazeui.datetimepicker.min.js"></script>
     <script type="text/javascript">
         var userImgUploadUrl = "@Url.Action("SaveUserImag")";
         var userImgPath = "";
@@ -70,6 +72,11 @@
 
                     <li>
                         <input id="UserQQ" class="am-form-field am-radius" type="text" placeholder="QQ" tips="输入你的QQ号码" value="">
+                    </li>
+
+                    <li >
+                       
+                        <input type="text" value="" id="datetimepicker" class="am-form-field" placeholder="生日">
                     </li>
                     <li>
                         <div class="am-u-md-12">

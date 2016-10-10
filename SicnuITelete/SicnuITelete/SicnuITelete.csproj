@@ -144,6 +144,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="assets\css\admin.css" />
     <Content Include="assets\css\amazeui.css" />
+    <Content Include="assets\css\amazeui.datetimepicker.css" />
     <Content Include="assets\css\amazeui.flat.css" />
     <Content Include="assets\css\amazeui.flat.min.css" />
     <Content Include="assets\css\amazeui.min.css" />
@@ -164,6 +165,7 @@
     <Content Include="assets\i\favicon.png" />
     <Content Include="assets\i\login_bg.jpg" />
     <Content Include="assets\i\startup-640x1096.png" />
+    <Content Include="assets\js\amazeui.datetimepicker.min.js" />
     <Content Include="assets\js\amazeui.ie8polyfill.js" />
     <Content Include="assets\js\amazeui.ie8polyfill.min.js" />
     <Content Include="assets\js\amazeui.js" />

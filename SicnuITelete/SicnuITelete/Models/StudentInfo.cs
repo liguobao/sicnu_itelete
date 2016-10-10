@@ -31,10 +31,13 @@ namespace SicnuITelete.Models
         public DateTime CreateTime { get; set; }
 
 
+        public DateTime BirthDay { get; set; }
+
+
         public bool Save()
         {
-            string sql = @"INSERT INTO student (StudentName, StudentNumber, QQNumber, GroupType, Intro, ITEleteInfo, Photo, CreateTime)  
-                     VALUES (@StudentName, @StudentNumber, @QQNumber, @GroupType, @Intro, @ITEleteInfo, @Photo, @CreateTime)";
+            string sql = @"INSERT INTO student (StudentName, StudentNumber, QQNumber, GroupType, Intro, ITEleteInfo, Photo, CreateTime,BirthDay)  
+                     VALUES (@StudentName, @StudentNumber, @QQNumber, @GroupType, @Intro, @ITEleteInfo, @Photo, @CreateTime,@BirthDay)";
             MySqlParameter[] para = new MySqlParameter[]
 					{
 						new MySqlParameter("@StudentName", ToDBValue(StudentName)),
@@ -45,6 +48,7 @@ namespace SicnuITelete.Models
 						new MySqlParameter("@CreateTime", ToDBValue(CreateTime)),
 						new MySqlParameter("@ITEleteInfo", ToDBValue(ITEleteInfo)),
 						new MySqlParameter("@Photo", ToDBValue(Photo)),
+                        new MySqlParameter("@BirthDay", ToDBValue(BirthDay)),
 					};
 
             int AddId = (int)MyDBHelper.ExecuteScalar(sql, para);

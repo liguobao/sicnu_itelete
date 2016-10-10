@@ -5,6 +5,11 @@
         e.stopPropagation();
     });
 
+    $('#datetimepicker').datetimepicker({
+        format: 'yyyy-mm-dd',
+        minView:"day"
+    });
+
     $('#uploadFile').fileupload({
         url: userImgUploadUrl,
         dataType: 'json',
@@ -37,7 +42,7 @@ function SaveUserInfo()
     var ITEleteInfo = $("#ITEleteInfo").val();
 
     var groupType = $("input[name='groupType']:checked").val();
-
+    var BirthDay = $('#datetimepicker').val();
 
     var studentInfo =
    {
@@ -48,7 +53,8 @@ function SaveUserInfo()
        GroupType: groupType,
        Intro: Intro,
        ITEleteInfo: ITEleteInfo,
-       Photo : userImgPath,
+       Photo: userImgPath,
+       BirthDay: BirthDay,
    };
 
 

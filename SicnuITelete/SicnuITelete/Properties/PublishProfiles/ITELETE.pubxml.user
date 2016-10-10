@@ -39,6 +39,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/css/amazeui.css">
       <publishTime>10/10/2016 16:23:01</publishTime>
     </File>
+    <File Include="assets/css/amazeui.datetimepicker.css">
+      <publishTime>10/10/2016 19:52:50</publishTime>
+    </File>
     <File Include="assets/css/amazeui.flat.css">
       <publishTime>10/10/2016 16:23:01</publishTime>
     </File>
@@ -114,6 +117,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/i/startup-640x1096.png">
       <publishTime>10/10/2016 16:23:01</publishTime>
     </File>
+    <File Include="assets/js/amazeui.datetimepicker.min.js">
+      <publishTime>10/10/2016 19:53:02</publishTime>
+    </File>
     <File Include="assets/js/amazeui.ie8polyfill.js">
       <publishTime>10/10/2016 16:23:01</publishTime>
     </File>
@@ -166,7 +172,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2016 16:07:22</publishTime>
     </File>
     <File Include="bin/SicnuITelete.dll">
-      <publishTime>10/10/2016 19:20:42</publishTime>
+      <publishTime>10/10/2016 20:06:50</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
       <publishTime>07/09/2013 11:04:48</publishTime>
@@ -202,7 +208,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2016 16:07:23</publishTime>
     </File>
     <File Include="DomainJS/home.js">
-      <publishTime>10/10/2016 19:12:34</publishTime>
+      <publishTime>10/10/2016 20:11:50</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>10/10/2016 16:07:20</publishTime>
@@ -247,13 +253,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2016 17:29:27</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/10/2016 18:32:47</publishTime>
+      <publishTime>10/10/2016 20:11:57</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>10/10/2016 16:07:20</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/10/2016 19:20:42</publishTime>
+      <publishTime>10/10/2016 20:06:50</publishTime>
     </File>
   </ItemGroup>
 </Project>
