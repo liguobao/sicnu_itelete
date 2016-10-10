@@ -3,6 +3,11 @@ E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\SicnuITelete.dll
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\SicnuITelete.pdb
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\Microsoft.Web.Infrastructure.dll
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\MySql.Data.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\MySql.Data.Entity.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\MySql.Data.Entity.EF6.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\MySql.Fabric.Plugin.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\MySql.Web.dll
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\Newtonsoft.Json.dll
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Net.Http.dll
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Net.Http.Formatting.dll
@@ -27,6 +32,5 @@ E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Web.Razor.xml
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Web.WebPages.xml
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Web.WebPages.Deployment.xml
 E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\bin\System.Web.WebPages.Razor.xml
-E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\obj\Debug\SicnuITelete.csprojResolveAssemblyReference.cache
-E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\obj\Debug\SicnuITelete.dll
-E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\obj\Debug\SicnuITelete.pdb
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\obj\Release\SicnuITelete.dll
+E:\Github\sicnu_itelete\SicnuITelete\SicnuITelete\obj\Release\SicnuITelete.pdb

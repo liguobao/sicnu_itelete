@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\web\ITELETE</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/commom/common.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/icon.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/link.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/login.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/new.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/register.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/style.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/commom/user.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/admin.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.flat.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.flat.min.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.min.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/css/app.css">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/app-icon72x72%402x.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-chrome.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-firefox.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-ie.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-opera.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-safari.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/adminPage.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/blogPage.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/landing.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/landingPage.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/loginPage.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/examples/sidebarPage.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/favicon.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/login_bg.jpg">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/i/startup-640x1096.png">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.ie8polyfill.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.ie8polyfill.min.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.min.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.widgets.helper.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.widgets.helper.min.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/app.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/handlebars.min.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>10/10/2016 16:23:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/10/2016 16:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/16/2016 12:19:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.dll">
+      <publishTime>03/16/2016 12:19:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF6.dll">
+      <publishTime>03/16/2016 12:19:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Fabric.Plugin.dll">
+      <publishTime>03/16/2016 12:19:28</publishTime>
+    </File>
+    <File Include="bin/MySql.Web.dll">
+      <publishTime>03/16/2016 12:19:28</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/10/2016 16:07:22</publishTime>
+    </File>
+    <File Include="bin/SicnuITelete.dll">
+      <publishTime>10/10/2016 18:12:06</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/09/2013 11:04:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>07/09/2013 11:04:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/10/2016 16:07:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/10/2016 16:07:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/10/2016 16:07:23</publishTime>
+    </File>
+    <File Include="DomainJS/home.js">
+      <publishTime>10/10/2016 17:57:14</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/10/2016 16:07:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/10/2016 16:07:24</publishTime>
+    </File>
+    <File Include="Scripts/jQueryFileUpload/jquery.fileupload.js">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/jQueryFileUpload/jquery.iframe-transport.js">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/jQueryFileUpload/vendor/jquery.ui.widget.js">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/extend/layer.ext.js">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/layer.js">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/default/icon-ext.png">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/default/icon.png">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/default/loading-0.gif">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/default/loading-1.gif">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/default/loading-2.gif">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/layer.css">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Scripts/layer/skin/layer.ext.css">
+      <publishTime>10/10/2016 17:29:27</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>10/10/2016 18:10:11</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/10/2016 16:07:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/10/2016 18:12:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

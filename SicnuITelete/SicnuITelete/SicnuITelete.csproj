@@ -40,6 +40,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>DLL\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>DLL\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Fabric.Plugin">
+      <HintPath>DLL\MySql.Fabric.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>DLL\MySql.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -112,10 +127,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\BizResultInfo.cs" />
+    <Compile Include="Common\EmailInfo.cs" />
+    <Compile Include="Common\MyDBHelper.cs" />
+    <Compile Include="Common\UploadFileHelper.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\StudentInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -161,7 +181,20 @@
     <Content Include="assets\commom\register.css" />
     <Content Include="assets\commom\style.css" />
     <Content Include="assets\commom\user.css" />
+    <Content Include="DomainJS\home.js" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\jQueryFileUpload\jquery.fileupload.js" />
+    <Content Include="Scripts\jQueryFileUpload\jquery.iframe-transport.js" />
+    <Content Include="Scripts\jQueryFileUpload\vendor\jquery.ui.widget.js" />
+    <Content Include="Scripts\layer\extend\layer.ext.js" />
+    <Content Include="Scripts\layer\layer.js" />
+    <Content Include="Scripts\layer\skin\default\icon-ext.png" />
+    <Content Include="Scripts\layer\skin\default\icon.png" />
+    <Content Include="Scripts\layer\skin\default\loading-0.gif" />
+    <Content Include="Scripts\layer\skin\default\loading-1.gif" />
+    <Content Include="Scripts\layer\skin\default\loading-2.gif" />
+    <Content Include="Scripts\layer\skin\layer.css" />
+    <Content Include="Scripts\layer\skin\layer.ext.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -173,7 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="UploadFiles\UserImg\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -187,6 +220,9 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff" />
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\ITELETE.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
