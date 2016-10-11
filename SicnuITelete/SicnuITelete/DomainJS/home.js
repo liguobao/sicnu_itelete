@@ -7,7 +7,7 @@
 
     $('#datetimepicker').datetimepicker({
         format: 'yyyy-mm-dd',
-        minView:"day"
+        minView:"month"
     });
 
     $('#uploadFile').fileupload({
